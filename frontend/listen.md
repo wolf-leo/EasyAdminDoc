@@ -9,6 +9,7 @@
 | data-full | 是否全屏打开 | string| 否 | false |   |
 | data-width | 弹出层宽度 | string| 否 | |   |
 | data-height | 弹出层高度 | string| 否 |  |   |
+| data-external | 是否自定义url | bool| 否 |  false|   |
 
 > 代码示例
 

@@ -4,15 +4,39 @@
 * Mysql >= 5.7.0 (需支持innodb引擎)
 * Apache 或 Nginx
 
-# git下载
+# 安装教程
+> EasyAdmin 使用 Composer 来管理项目依赖。因此，在使用 EasyAdmin 之前，请确保你的机器已经安装了 Composer。
 
-* 使用git克隆资源下来
-    * `git clone https://github.com/zhongshaofa/easyadmin`
-    * `git clone https://gitee.com/zhongshaofa/easyadmin`
-* 将网站入口部署至`public`目录下面（即`easyadmin/public`目录下）
-* 修改伪静态配置, 请参考下方伪静态设置。
+### 通过 Composer 创建项目`建议`
+`composer create-project --prefer-dist zhongshaofa/easyadmin easyadmin`  
+
+### 通过git下载安装包，composer安装依赖包
+
+```bash
+第一步，下载安装包
+
+git clone https://github.com/zhongshaofa/easyadmin
+或者
+git clone https://gitee.com/zhongshaofa/easyadmin
+
+
+第二步，安装依赖包
+composer install
+
+```
+
+# 配置
+
+### 公共目录
+安装完 easyadmin 之后，你必须将 web 服务器根目录指向 public 目录。该目录下的 index.php 文件将作为所有进入应用程序的 HTTP 请求的前端控制器。
+
+### 目录权限
+安装完 easyadmin 后，你可能需要给这两个文件配置读写权限：config 目录和 runtime 目录应该允许 Web 服务器写入，否则 easyadmin 程序将无法运行。
+
+### 安装提示
 * 运行网站地址, 会自动进入安装界面, 请根据提示进行设置, 然后点击安装。
 * 安装完成后会自动生成安装锁`config/install/lock/install.lock`, 如需重新安装, 删掉该文件即可。
+
 
 # 伪静态配置
 

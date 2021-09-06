@@ -87,6 +87,7 @@
 * `method` 执行方式：
     * `open` 弹出层打开
     * `request` 直接请求
+    * `none` 需要配合extend自定义参数内容
     
 > 示例
 
@@ -164,6 +165,7 @@
 | class | 样式信息 | string| 否 | |   |
 | icon | 图标信息 | string| 否 | | 在行操作里面，不建议使用图标 |
 | title | 提示信息 | string| 否 | 为空则读取`text`属性 | |
+| extra | 提示信息 | string| 否 | 表格内的欲加入标题中的行字段 | |
 | text | 文本信息 | string| 否 | 为空则读取`title`属性 | |
 | method | 执行方式 | string| 否 | open | 可用值，请参考下方参数说明 |
 | url | 请求链接 | string| 是 | | |
@@ -176,6 +178,7 @@
 * `method` 执行方式：
     * `open` 弹出层打开
     * `request` 直接请求
+    * `none` 需要配合extend自定义参数内容
     
 > 示例
 
@@ -183,6 +186,7 @@
     operat: [
         [{
             text: '编辑',
+            extra:'name',
             url: init.edit_url,
             method: 'open',
             auth: 'edit',
