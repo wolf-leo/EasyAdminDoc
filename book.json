@@ -50,7 +50,7 @@
       "url": "https://github.com/zhongshaofa/easyadmin"
     },
     "insert-logo": {
-      "url": "https://easyadmin.oss-cn-shenzhen.aliyuncs.com/docs/logo.png",
+      "url": "/images/logo.png",
       "style": "background: none; max-height: 60px; min-height: 60px"
     },
     "hide-element": {

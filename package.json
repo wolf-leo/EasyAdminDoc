@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gitbook-plugin-anchor-nav-x": "^1.0.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14"
+  }
+}

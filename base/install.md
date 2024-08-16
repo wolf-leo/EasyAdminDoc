@@ -1,3 +1,7 @@
+> `EasyAdmin8` 请点击这里查看安装要求 [https://easyadmin8.top/guide/start.html](https://easyadmin8.top/guide/start.html)
+
+# 以下为 `EasyAdmin` 安装指导
+
 # 环境要求
 
 * PHP >= 7.1.0
