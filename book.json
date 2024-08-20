@@ -18,8 +18,9 @@
     "hide-element",
     "code",
     "insert-logo",
-    "custom-favicon",
-    "github"
+    "favicon",
+    "github",
+    "baidu-tongji-with-multiple-channel"
   ],
   "sharing": {
     "douban": false,
@@ -51,7 +52,10 @@
     ]
   },
   "pluginsConfig": {
-    "favicon": "https://easyadmin.oss-cn-shenzhen.aliyuncs.com/docs/favicon.ico",
+    "favicon": {
+      "shortcut": "/images/favicon.ico",
+      "bookmark": "/images/favicon.ico"
+    },
     "github": {
       "url": "https://github.com/zhongshaofa/easyadmin"
     },
@@ -97,6 +101,9 @@
       "copyright": "&copy zhongshaofa",
       "modify_label": "文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "baidu-tongji-with-multiple-channel": {
+      "token": "7014824a92e6cc950d621a376f77abc3"
     }
   }
 }
